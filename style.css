@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+}
+ body{
+    margin:0;
+ }
+ 
+
+ button{
+    padding: 12px 50px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgba(104, 202, 169, 0.808);
+    border: none; 
+    font-weight: 400;
+ }
+
+
+
+
+
+
+
+
+
+
+header{
+    display:flex;
+    flex-direction: column; 
+    background-color: #636C79;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.list-items{
+    display: flex;
+    justify-content: flex-end;
+
+    list-style-type: none;  
+    width: 60%;
+}
+.list-item{
+    padding: 20px; 
+}
+.nav-lets-talk{
+    background-color: transparent;
+    border: 1px solid #ffffff25;
+    
+}
+
+/* BANNER */
+
+.banner-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.banner-img{
+    height: 500px;
+    width: 400px; 
+    border-radius: 3px;
+ }
+
+.banner-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center; 
+ justify-content: center;
+ width: 30%; 
+ font-weight: 600;
+ position: relative;
+ right: 100px;
+ margin-top: 20px;
+}
+.banner-content-heading{
+    font-size: 45px;
+}
+.banner-content-body{
+    color: #ffffffc9;
+    font-weight: 200;
+    font-size: 14px;
+}
+.email{
+    padding: 20px 0px; 
+    padding-right: 155px;
+    width: 50%;
+    padding-left: 40px;
+}
+.email-btn{
+  position:relative;
+  left: 230px;
+  bottom: 55px;
+}
+.fa-envelope{
+    position: relative;
+    color: #000000;
+    top: 46px;
+    left: 10px;
+    font-size: 20px;
+}
+
+
+
+/* INRODUCTION */
+
+
+.intro{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top :40px; ;
+}
+.status{
+    display: flex;
+    flex-direction: row; 
+}.intro-heading{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    color: #000000ec;
+}
+.status{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none; 
+    position: relative;
+    bottom: 50px;
+}
+.numbers{
+    font-size: 30px;
+    font-weight: 600; 
+    position: relative;
+    top: 20px;
+}
+.status>li{
+    text-align: center; 
+}
+.status-body{
+    color: #000000b0;
+}
+.intro-img{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    bottom: 50px;
+}
+.fa-circle-play{
+    position: absolute;
+    top: 1350px; 
+    font-size: 100px;
+    color:rgba(250, 240, 230, 0.589);
+}
+
+
+
+
+
+
+/* CARDS */
+
+.cards-cont{
+    display: flex;
+    flex-direction: column; 
+    align-items: center ;
+ 
+}
+.cards-cont-heading{
+    width: 30%;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    margin-top: 40px;
+}
+
+.card-content{  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;  
+    width: 30%;
+}
+.card-body{
+    /* width: 60%; */
+    font-size: 15px;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+}
+.card-img{  
+    height: 400px;
+    width: 450px; 
+}
+.card-heading{
+    font-size: 30px;
+    font-weight:900;
+}
+
+
+
+
+
+
+.team-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.team-heading-cont{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+.team-heading{ 
+     font-size: 35px;
+     width: 30%;
+     font-weight: 600; 
+     padding: 0px 90px;
+}
+.team-heading-body{
+ width: 35%;
+ position: relative;
+ right: 50px;
+}
+
+.team-member-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.team-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    list-style-type: none; 
+    width: 25%;
+    padding: 19px 30px;
+    position: relative;
+    left: 50px;
+}
+.team-member-img{
+    height: 350px;
+    width: 250px;
+}
+.team-member-name{
+    font-size: 18px;
+}
+.member-intro{ 
+    font-size: 10px;
+    width: 80%;  
+    position: relative;
+    bottom: 20px;
+}
+
+.see-more{
+    position: relative;
+    left: 20px;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #10181D;
+    margin-top: 30px;
+    color: #ffffff;
+    position: relative;
+}
+.logo-img{
+    height:40px;
+    width:80px; 
+}
+.social-media{
+    width: 47%;
+    position: relative;
+    left: 400px;
+}
+.fa-brands{
+    padding: 10px;
+    background-color:#ffffff3f;
+    border-radius: 50%; 
+    margin-left: 10px;
+}
+.upper-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px;
+}
+
+ .upper-footer::after{
+    content: "";
+    display: block; 
+    height: 1px;
+    width: 76%;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    background-color: #ffffff;
+
+ }
+.know-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.menu{
+    list-style-type: none;
+}
+.menu-item{ 
+    padding: 10px 25px;
+    color: #ffffff79;
+}
+.menu-heading{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
